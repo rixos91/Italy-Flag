@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+        .container {
+            position: relative;
+            width: 450px; /* 3 * 150px */
+            height: 300px;
+        }
+        .container div {
+            position: absolute;
+            height: 100%;
+            width: 150px;
+            top: 0;
+        }
+        .green {
+            background-color: green;
+            left: 0;
+        }
+        .white {
+            background-color: aliceblue;
+            left: 150px;
+        }
+        .red {
+            background-color: red;
+            left: 300px;
+        }
+        p {
+            margin: 0;
+            line-height: 50px;
+            text-align: center;
+            font-weight: bold;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        h1 {
+            text-align: center;
+            text-shadow: 10px 5px 5px red;
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>ITALY FLAG</h1>
+        <div class="container">
+            <div class="green"></div>
+            <div class="white">
+                <p>I</p>
+                <p>T</p>
+                <p>A</p>
+                <p>L</p>
+                <p>I</p>
+                <p>A</p>
+            </div>
+            <div class="red"></div>
+        </div>
+    </div>
+</body>
+</html>
